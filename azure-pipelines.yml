@@ -15,3 +15,19 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+
+
+- task: DotNetCoreCLI@2
+  displayName: Build Code
+  inputs:
+    command: build
+    projects: '**/*.csproj'
+    arguments: '--configuration $(buildConfiguration) -o $(Build.Repository.Localpath)/output' # Update this to match your need
+
+- task: DotNetCoreCLI@2
+  displayName: Run Unit and Component Tests
+  inputs:
+    command: test
+    projects: '**/*Spec.csproj'
+    arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
+

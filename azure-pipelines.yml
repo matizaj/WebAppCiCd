@@ -1,0 +1,48 @@
+# ASP.NET Core
+# Build and test ASP.NET Core projects targeting .NET Core.
+# Add steps that run tests, create a NuGet package, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- task: DotNetCoreInstaller@0
+  inputs:
+    version: '2.2.300'
+
+- script: dotnet restore
+    
+- script: dotnet build --configuration $(buildConfiguration)
+  displayName: 'dotnet build $(buildConfiguration)'
+
+
+- task: DotNetCoreCLI@2
+  displayName: Build Code
+  inputs:
+    command: build
+    projects: '**/*.csproj'
+    arguments: '--configuration $(buildConfiguration) -o $(Build.Repository.Localpath)/output' # Update this to match your need
+
+- task: DotNetCoreCLI@2
+  displayName: Run Unit and Component Tests
+  inputs:
+    command: test
+    projects: '**/*SPEC.csproj'
+    arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
+
+- task: Docker@1
+  displayName: Build Docker Image
+  inputs:
+    dockerFile: 'Dockerfile'
+    imageName: webappcicd:v1
+    defaultContext: false
+    #context: $(Build.Repository.Localpath)
+    action: 'Build an image'
+

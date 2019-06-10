@@ -28,6 +28,6 @@ steps:
   displayName: Run Unit and Component Tests
   inputs:
     command: test
-    projects: '**/*Spec.csproj'
+    projects: '**/*SPEC.csproj'
     arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
 

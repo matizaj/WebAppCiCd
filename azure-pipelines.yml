@@ -37,3 +37,12 @@ steps:
     projects: '**/*SPEC.csproj'
     arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
 
+- task: Docker@1
+  displayName: Build Docker Image
+  inputs:
+    dockerFile: 'Dockerfile'
+    imageName: webappcicd:v1
+    defaultContext: false
+    #context: $(Build.Repository.Localpath)
+    action: 'Build an image'
+

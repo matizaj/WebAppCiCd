@@ -1,0 +1,14 @@
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\bin\Debug\netcoreapp2.2\WebAppCiCd.deps.json
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\bin\Debug\netcoreapp2.2\WebAppCiCd.runtimeconfig.json
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\bin\Debug\netcoreapp2.2\WebAppCiCd.runtimeconfig.dev.json
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\bin\Debug\netcoreapp2.2\WebAppCiCd.dll
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\bin\Debug\netcoreapp2.2\WebAppCiCd.pdb
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\obj\Debug\netcoreapp2.2\WebAppCiCd.csprojAssemblyReference.cache
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\obj\Debug\netcoreapp2.2\WebAppCiCd.csproj.CoreCompileInputs.cache
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\obj\Debug\netcoreapp2.2\WebAppCiCd.RazorAssemblyInfo.cache
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\obj\Debug\netcoreapp2.2\WebAppCiCd.RazorAssemblyInfo.cs
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\obj\Debug\netcoreapp2.2\WebAppCiCd.AssemblyInfoInputs.cache
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\obj\Debug\netcoreapp2.2\WebAppCiCd.AssemblyInfo.cs
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\obj\Debug\netcoreapp2.2\WebAppCiCd.RazorTargetAssemblyInfo.cache
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\obj\Debug\netcoreapp2.2\WebAppCiCd.dll
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd\obj\Debug\netcoreapp2.2\WebAppCiCd.pdb

@@ -1,0 +1,14 @@
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\bin\Debug\netcoreapp2.2\WebAppCiCd.SPEC.deps.json
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\bin\Debug\netcoreapp2.2\WebAppCiCd.SPEC.runtimeconfig.json
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\bin\Debug\netcoreapp2.2\WebAppCiCd.SPEC.runtimeconfig.dev.json
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\bin\Debug\netcoreapp2.2\WebAppCiCd.SPEC.dll
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\bin\Debug\netcoreapp2.2\WebAppCiCd.SPEC.pdb
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\obj\Debug\netcoreapp2.2\WebAppCiCd.SPEC.csprojAssemblyReference.cache
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\obj\Debug\netcoreapp2.2\WebAppCiCd.SPEC.csproj.CoreCompileInputs.cache
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\obj\Debug\netcoreapp2.2\WebAppCiCd.SPEC.AssemblyInfoInputs.cache
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\obj\Debug\netcoreapp2.2\WebAppCiCd.SPEC.AssemblyInfo.cs
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\obj\Debug\netcoreapp2.2\WebAppCiCd.SPEC.dll
+C:\Users\TRBC37\source\repos\WebAppCiCd\WebAppCiCd.SPEC\obj\Debug\netcoreapp2.2\WebAppCiCd.SPEC.pdb

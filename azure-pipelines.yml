@@ -43,6 +43,6 @@ steps:
     dockerFile: 'Dockerfile'
     imageName: webappcicd:v1
     defaultContext: false
-    #context: $(Build.Repository.Localpath)
+    context: $(Build.Repository.Localpath)
     action: 'Build an image'
 
